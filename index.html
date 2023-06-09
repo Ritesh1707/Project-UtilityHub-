@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- http://127.0.0.1:5500/index.html -->
 
+
     <div class="top-banner">
-        <div class="container">
-            <div class="banner-text">
-                📣Figma prototype testing just got a whole lot better! Read more →
-            </div>
+        <div class="banner-text container">
+            📣Figma prototype testing just got a whole lot better! Read more →
         </div>
     </div>
 
@@ -36,13 +38,17 @@
                     <li><a href="#" class="hover-links primary-button"> Sign in </a></li>
                     <li><a href="#" class="hover-links secondary-button"> Sign up </a></li>
                 </ul>
+                <a href="#" class="nav-toggle hover-links">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
             </div>
         </div>
     </nav>
 
+
     <header>
         <div class="header-section container flex">
-            <div class="header-left">
+            <div class="header-left flex" >
                 <h1>Design confidently.</h1>
                 <p>
                     UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
@@ -77,9 +83,11 @@
         </div>
     </section>
 
+
+
     <section class="feature-section">
         <div class="container">
-            <div class="feature-header">
+            <div class="feature-header flex">
                 <h2>Your user research Swiss Army knife</h2>
                 <a href="#" class="primary-button">See all features →</a>
             </div>
@@ -127,11 +135,9 @@
     </section>
 
 
-
-
-    <section class="big-feature-section">
+    <section class="big-feature-section ">
         <div class="big-feature-container1  container flex">
-            <div class="header-left">
+            <div class="side-left">
                 <p>Effortless validation for</p><br>
                 <h3>Design professionals</h3>
                 <p>
@@ -145,7 +151,7 @@
             </div>
 
 
-            <div class="header-right">
+            <div class="side-right">
                 <img src="assets/asset 18.png" alt="">
             </div>
         </div>
@@ -154,7 +160,7 @@
 
     <section class="big-feature-section">
         <div class="big-feature-container2  container flex">
-            <div class="header-left">
+            <div class="side-left">
                 <p>Optimisation for</p>
                 <h1>Marketers</h1>
                 <p>
@@ -168,7 +174,7 @@
             </div>
 
 
-            <div class="header-right">
+            <div class="side-right">
                 <img src="assets/asset 21.png" alt="">
             </div>
         </div>
@@ -177,7 +183,7 @@
 
     <section class="big-feature-section">
         <div class="big-feature-container1  container flex">
-            <div class="header-left">
+            <div class="side-left">
                 <p>Easier decision making for</p>
                 <h1>Product managers</h1>
                 <p>
@@ -193,7 +199,7 @@
             </div>
 
 
-            <div class="header-right">
+            <div class="side-right">
                 <img src="assets/asset 24.png" alt="">
             </div>
         </div>
@@ -201,63 +207,42 @@
 
 
 
-    <section class="examples-class">
+    <section class="cta-section container flex">
+        <div class="exapmle-header flex ">
+            <h2>One Platform, endless solution</h2>
+            <div class="primary-button"> See more examples</div>
+        </div>
 
-    </section>
-
-
-
-    <section class="cta-section">
-        <div class=" container">
-            <div class="exapmle-header flex">
-                <h2 class="examples-heading-text">One platform, endless possibilities</h2>
-                <a href="#" class="primary-button">See more examples</a>
-            </div>
-            <div class="examples-card flex container">
-
-                <div class="image-section">
-                    <a href="#" style="background-image: url(assets/asset\ 36.jpeg);">
-                        <div class="example-text">
-                            Can user complete a task in my software interface ?
-                        </div>
-                    </a>
+        <div class="examples-card flex container">
+            <a href="#" class="image-section">
+                <div class="example-text">
+                    Can user complete a task in my software interface ?
                 </div>
-
-                <div class="image-section">
-                    <a href="#" style="background-image: url(assets/asset\ 37.jpeg);">
-                        <div class="example-text">
-                            Can user find important pages on my website ?
-                        </div>
-                    </a>
+            </a>
+            <a href="#" class="image-section">
+                <div class="example-text">
+                    Can user complete a task in my software interface ?
                 </div>
-
-                <div class="image-section">
-                    <a href="#" style="background-image: url(assets/asset\ 38.jpeg);">
-                        <div class="example-text">
-                            Is my website's intend audiance clear ?
-                        </div>
-                    </a>
+            </a>
+            <a href="#" class="image-section">
+                <div class="example-text">
+                    Can user complete a task in my software interface ?
                 </div>
-
-                <div class="image-section">
-                    <a href="#" style="background-image: url(assets/asset\ 39.jpeg);">
-                        <div class="example-text">
-                            Do visitors understand what a page is about ?
-                        </div>
-                    </a>
+            </a>
+            <a href="#" class="image-section">
+                <div class="example-text">
+                    Can user complete a task in my software interface ?
                 </div>
-
-            </div>
-            <br><br><br>
-
+            </a>
         </div>
     </section>
 
 
+
     <section class="page-section">
-        <div class="container flex">
-            <div class="header-left">
-                <h3>NO participants ?</h3>
+        <div class="page-section-inner container flex">
+            <div class="page-section-left flex">
+                <h3>No participants ?</h3>
                 <h3>No problem</h3>
                 <div class="page-section-text">
                     Our integrated panel allows you to quickly and affordably recruit research participants that
@@ -273,7 +258,7 @@
                         </ul>
                     </div>
 
-                    <br>
+                    
 
                     <div class="list1">
                         <ul>
@@ -283,17 +268,20 @@
                         </ul>
                     </div>
                 </div>
+                <br><br>
                 <a href="#" class="secondary-button">Learn more</a>
             </div>
 
-            <div class="header-right">
+            <br><br>    
+            <div class="page-section-right">
                 <img src="assets/asset 40.png" alt="">
             </div>
         </div>
     </section>
 
 
-    <section class="pre-header flex">
+
+    <section class="pre-footer flex">
         <h2>Start testing today</h2>
         <div>Take the guesswork out of design decisions</div>
         <a href="#" class="secondary-button">Get Started</a>
@@ -303,9 +291,11 @@
 
     <footer>
         <div class="footer container flex">
-            <div class="footer-section"><img src="assets/asset 1.png" alt="" style="width: 50%;"></div>
             <div class="footer-section">
-                <h4>Product</h4>
+                <img src="assets/asset 1.png" alt="">
+            </div>
+            <div class="footer-section flex">
+                <h3>Product</h3>
                 <ul>
                     <li><a href="#">Overview</a></li>
                     <li><a href="#">Pricing</a></li>
@@ -317,7 +307,7 @@
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Methodilies</h4>
+                <h3>Methodilies</h3>
                 <ul>
                     <li><a href="#">Card Sorting</a></li>
                     <li><a href="#">Prototype Testing</a></li>
@@ -328,7 +318,7 @@
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Resources</h4>
+                <h3>Resources</h3>
                 <ul>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Examples</a></li>
@@ -342,15 +332,14 @@
     </footer>
 
 
-
     <div class="sub-footer">
         <div class="sub-footer-start container flex">
-            <div class="sub-footer-elemnts">
+            <div class="sub-footer-elemnts flex">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms & Conditions</a>
                 <a href="#">Security information</a>
             </div>
-            <div class="sub-footer-elemnts1">
+            <div class="sub-footer-elemnts1 flex">
                 <a href="#"><img src="assets/asset 28.png" alt=""></a>
                 <a href="#"><img src="assets/asset 29.png" alt=""></a>
                 <a href="#"><img src="assets/asset 30.png" alt=""></a>
@@ -358,6 +347,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
