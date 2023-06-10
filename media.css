@@ -4,6 +4,7 @@
         margin-inline: var(--padding-inline-section);
     }
 
+
     .nav-links{
         display: none;
     } 
@@ -58,6 +59,16 @@
 
 
 @media screen and (max-width:767px) {
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+
      .header-section{
         flex-direction: column-reverse;
         justify-content: center;
@@ -96,8 +107,8 @@
 
 
     .example-text{
-        top: 140px;
-        font-size: medium;
+        font-size:x-small;
+        top: 150px;
     }
     .page-section{
         justify-content: center;
@@ -147,11 +158,14 @@
     .header-left p{
         font-size: large;
     }
-
-    .feature-header h2{
-        font-size: x-large;
-        font-weight: 500;
+    .header-right{
+        width: 100%;
     }
+    .header-right img{
+        min-width: 100px;
+        width: 100%;
+    }
+
     .feature-area{
         flex-direction: column;
         align-items: center;
@@ -159,13 +173,7 @@
     .feature-card{
         width: 100%;
     }
-
-
     
-    .exapmle-header h2{
-        font-size:x-large;
-        font-weight: 400px;
-    }
     .example-card{
         width: 100%;
     }
